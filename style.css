@@ -32,15 +32,17 @@ body {
 }
 
 .lightbox {
-  position: fixed;
+  position: absolute; /* 用 absolute 而不是 fixed */
   top: 0; left: 0;
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.85);
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 99;
 }
+
 
 .lightbox img {
   max-width: 90%;
