@@ -19,6 +19,7 @@ body {
   margin-top: 20px; /* 與上方區塊的距離 */
 }
 
+
 /* 圖片樣式 */
 .gallery img {
   width: 30%; /* 每張圖片寬度佔畫面 30% */
@@ -63,6 +64,19 @@ body {
   font-size: 14px; /* 字體大小 */
   color: #1c1c1c; /* 字體顏色為深灰色 */
   text-align: center; /* 置中文字 */
+}
+.gallery > div {
+  width: 30%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery > div p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
 }
 
 /* 響應式設計：螢幕寬小於 600px 時 */
