@@ -70,3 +70,14 @@
   color: #1c1c1c;
   text-align: center;
 }
+ /* 響應式：手機裝置下調整圖片大小 */
+    @media (max-width: 600px) {
+      .gallery img {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .gallery img {
+        width: 90%;
+      }
