@@ -12,10 +12,10 @@ body {
 
     .gallery {
       display: flex;
-      gap: 12px;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 30px;
+      gap: 12px;
+      margin-top: 20px;
     }
 
     .gallery img {
@@ -44,9 +44,9 @@ body {
       z-index: 999;
     }
 
-    .lightbox img {
-      max-width: 90%;
-      max-height: 90%;
+  .lightbox img {
+      max-width: 90vw;
+      max-height: 90vh;
       border-radius: 12px;
       box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
       cursor: pointer;
