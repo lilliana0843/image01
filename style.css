@@ -74,16 +74,16 @@ body {
 }
 
 
-/* 響應式設計：螢幕寬小於 600px 時 */
+
+/* 響應式設計：平板與手機版圖片大小調整 */
 @media (max-width: 600px) {
-  .gallery img {
-    width: 45%; /* 每張圖片佔寬度變成 45% */
+  .gallery > div {
+    width: 45%;
   }
 }
 
-/* 響應式設計：螢幕寬小於 400px 時 */
 @media (max-width: 400px) {
-  .gallery img {
-    width: 90%; /* 每張圖片幾乎佔滿整個畫面 */
+  .gallery > div {
+    width: 90%;
   }
 }
