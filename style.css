@@ -19,8 +19,9 @@ body {
     }
 
     .gallery img {
-      width: 200px;
-      height: 300px;
+      width: 30%;
+      max-width: 200px;
+      aspect-ratio: 2 / 3;
       object-fit: cover;
       border-radius: 10px;
       cursor: pointer;
