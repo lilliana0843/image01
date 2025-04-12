@@ -1,4 +1,5 @@
- body {
+<style>
+body {
       background-color: transparent;
       color: white;
       font-family: sans-serif;
@@ -81,3 +82,5 @@
       .gallery img {
         width: 90%;
       }
+
+</style>
