@@ -1,5 +1,5 @@
 
-body {
+  body {
       background-color: transparent;
       color: white;
       font-family: sans-serif;
@@ -10,7 +10,7 @@ body {
       align-items: center;
     }
 
-    .gallery {
+      .gallery {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -18,7 +18,7 @@ body {
       margin-top: 20px;
     }
 
-    .gallery img {
+     .gallery img {
       width: 30%;
       max-width: 200px;
       aspect-ratio: 2 / 3;
@@ -27,8 +27,7 @@ body {
       cursor: pointer;
       transition: transform 0.3s, box-shadow 0.3s;
     }
-
-    .gallery img:hover {
+   .gallery img:hover {
       transform: scale(1.05);
       box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
     }
@@ -36,7 +35,7 @@ body {
     .lightbox {
       position: fixed;
       top: 0; left: 0;
-      width: 100%; height: 100%;
+      width: 100vw; height: 100vh;
       background: rgba(0, 0, 0, 0.85);
       display: none;
       justify-content: center;
@@ -44,7 +43,7 @@ body {
       z-index: 999;
     }
 
-  .lightbox img {
+   .lightbox img {
       max-width: 90vw;
       max-height: 90vh;
       border-radius: 12px;
@@ -52,19 +51,6 @@ body {
       cursor: pointer;
     }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-}
-
-.gallery > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
-}
 
 .gallery p {
   margin-top: 6px;
@@ -72,7 +58,8 @@ body {
   color: #1c1c1c;
   text-align: center;
 }
- /* 響應式：手機裝置下調整圖片大小 */
+ 
+    /* 響應式：手機裝置下調整圖片大小 */
     @media (max-width: 600px) {
       .gallery img {
         width: 45%;
