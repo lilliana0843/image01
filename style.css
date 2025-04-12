@@ -72,12 +72,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.gallery > div p {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #ccc;
-  text-align: center;
-}
+
 
 /* 響應式設計：螢幕寬小於 600px 時 */
 @media (max-width: 600px) {
