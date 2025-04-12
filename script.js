@@ -1,3 +1,4 @@
+<script>
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const thumbnails = document.querySelectorAll(".gallery img");
@@ -13,4 +14,5 @@ thumbnails.forEach(img => {
     lightbox.addEventListener("click", () => {
       lightbox.style.display = "none";
     });
- 
+
+  </script>
